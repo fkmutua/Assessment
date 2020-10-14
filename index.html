@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Billing</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+    
+</head>
+
+<body id="main_body">
+
+    <img id="top" src="top.png" alt="">
+    <div id="form_container">
+
+        <h1><a>FD Billing</a></h1>
+        <form id="form_3171" class="appintro" method="post" action="">
+            <div class="form_description">
+                <h2>FD Billing</h2>
+                <p>ESD Evaluation form</p>
+            </div>
+            <ul>
+
+                <li id="li_3">
+                    <label class="description" for="element_3">ESD Analyst
+                    </label>
+                    <div>
+                        <select class="element select medium" id="element_3" name="element_3">
+                            <option value="" selected="selected"></option>
+                            <option value="1">WOSII</option>
+                            <option value="2">MMUTANGILI</option>
+                            <option value="3">WKOECH</option>
+                            <option value="4">RODHIAMBO1</option>
+                            <option value="5">PMUREITHI</option>
+
+                        </select>
+                    </div>
+                </li>
+                <li id="li_1">
+                    <label class="description" for="element_1">SR </label>
+                    <div>
+                        <input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255"
+                            value="" />
+                    </div>
+                </li>
+                <li id="li_4">
+                    <label class="description" for="element_4">Was SR assigned on time? <br> Did the team assign activity
+                        within 4hr SLA?
+                        Y/N (15%)
+
+                    </label>
+                    <span>
+                        <input id="element_4_1" name="element_4" class="element radio" type="radio" value="1" />
+                        <label class="choice" for="element_4_1">YES</label>
+                        <input id="element_4_2" name="element_4" class="element radio" type="radio" value="2" />
+                        <label class="choice" for="element_4_2">NO</label>
+
+                    </span>
+                </li>
+                <li id="li_5">
+                    <label class="description" for="element_5">Did the agent create an order within 4hrs of receiving customer request?<br>
+                        and if not were internal teams informed?<br>Y/N/PARTLY,N/A (30%)
+
+                    </label>
+                    <span>
+                        <input id="element_5_1" name="element_5" class="element radio" type="radio" value="1" />
+                        <label class="choice" for="element_5_1">YES</label>
+                        <input id="element_5_2" name="element_5" class="element radio" type="radio" value="2" />
+                        <label class="choice" for="element_5_2">NO</label>
+
+                    </span>
+                </li>
+                <li id="li_6">
+                    <label class="description" for="element_6">Was SR closed on time based on final activity of the owner on that SR?<br>
+                        If the SR was transferred, last activity of the owner. <br>
+                        Check service request log. Should be transferred within 2 hours of the activity. <br> 
+                        Y/N (15%)
+
+                    </label>
+                    <span>
+                        <input id="element_6_1" name="element_6" class="element radio" type="radio" value="1" />
+                        <label class="choice" for="element_6_1">YES</label>
+                        <input id="element_6_2" name="element_6" class="element radio" type="radio" value="2" />
+                        <label class="choice" for="element_6_2">NO</label>
+
+                    </span>
+                </li>
+                <li id="li_7">
+                    <label class="description" for="element_7">KYC adherence, Quality and Accuracy of the order. <br>
+                        [Y/N/PARTLY] (30%)
+
+                    </label>
+                    <span>
+                        <input id="element_7_1" name="element_7" class="element radio" type="radio" value="1" />
+                        <label class="choice" for="element_7_1">YES</label>
+                        <input id="element_7_2" name="element_7" class="element radio" type="radio" value="2" />
+                        <label class="choice" for="element_7_2">NO</label>
+
+                    </span>
+                </li>
+                <li id="li_8">
+                    <label class="description" for="element_8">Marking quality ticket? <br>
+                        [Y/N/N/A] (10%)
+
+                    </label>
+                    <span>
+                        <input id="element_8_1" name="element_8" class="element radio" type="radio" value="1" />
+                        <label class="choice" for="element_8_1">YES</label>
+                        <input id="element_8_2" name="element_8" class="element radio" type="radio" value="2" />
+                        <label class="choice" for="element_8_2">NO</label>
+
+                    </span>
+                </li>
+                <li id="li_2">
+                    <label class="description" for="element_2">Comments and Observations </label>
+                    <div>
+                        <textarea id="element_2" name="element_2" class="element textarea medium"></textarea>
+                    </div>
+                </li>
+
+                <li class="buttons">
+                    <input type="hidden" name="form_id" value="3171" />
+
+                    <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+                </li>
+            </ul>
+        </form>
+    </div>
+    <img id="bottom" src="bottom.png" alt="">
+</body>
+
+</html>
